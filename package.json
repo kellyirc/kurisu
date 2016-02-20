@@ -10,7 +10,8 @@
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.1.3",
     "hubot-irc": "^0.2.8",
-    "hubot-substitute": "^0.2.0"
+    "hubot-substitute": "^0.2.0",
+    "jobot-brain-file": "^0.1.4"
   },
   "engines": {
     "node": "0.10.x"
