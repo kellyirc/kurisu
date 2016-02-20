@@ -8,7 +8,8 @@
     "hubot": "^2.18.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.1.3",
-    "hubot-irc": "^0.2.8"
+    "hubot-irc": "^0.2.8",
+    "hubot-substitute": "^0.2.0"
   },
   "engines": {
     "node": "0.10.x"
