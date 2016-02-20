@@ -3,5 +3,6 @@
   "hubot-help",
   "jobot-brain-file",
   "hubot-substitute",
-  "hubot-calculator"
+  "hubot-calculator",
+  "hubot-url-title"
 ]
