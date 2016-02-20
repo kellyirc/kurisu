@@ -1,0 +1,6 @@
+#!/bin/sh
+
+HUBOT_IRC_SERVER=irc.esper.net
+HUBOT_IRC_ROOMS=#kellyirc
+
+$(dirname $0)/hubot -a irc
