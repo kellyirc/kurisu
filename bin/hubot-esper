@@ -1,5 +1,7 @@
 #!/bin/sh
 
+FILE_BRAIN_PATH=.
+
 HUBOT_IRC_SERVER=irc.esper.net
 HUBOT_IRC_ROOMS="#kellyirc,#dgr,#kwrpg,#scripts&alias"
 
