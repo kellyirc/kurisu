@@ -1,5 +1,7 @@
 #!/bin/sh
 
+npm install
+
 export HUBOT_IRC_SERVER=irc.esper.net
 export HUBOT_IRC_ROOMS="#kellyirc,#dgr,#kwrpg,#scripts&alias"
 
