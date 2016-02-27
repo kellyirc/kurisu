@@ -4,5 +4,6 @@
   "jobot-brain-file",
   "hubot-substitute",
   "hubot-calculator",
-  "hubot-url-title"
+  "hubot-url-title",
+  "hubot-android-os-usage"
 ]
