@@ -1,3 +1,5 @@
+// Description:
+//   Sets up an update web hook and executes an update command when posted to.
 var cp = require('child_process');
 
 module.exports = function(robot) {
