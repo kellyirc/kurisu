@@ -2,7 +2,7 @@ module.exports = (robot) ->
 
   searchResults = {}
 
-  robot.hear /!hummingbird-search (.*)/i, (res) ->
+  robot.respond /hummingbird-search (.*)/i, (res) ->
     animeTitle = res.match[1]
     robot.http("https://hummingbird.me/search.json?query=#{animeTitle}&type=mixed")
           .get() (err, httpRes, body) ->
@@ -19,7 +19,7 @@ module.exports = (robot) ->
             res.send "Found #{searchResults.search.length} possible anime. First possible anime: #{searchResults.search[0].title}"
 
 
-  robot.hear /!hummingbird-list (.*)/i, (res) ->
+  robot.respond /hummingbird-list (.*)/i, (res) ->
     if not searchResults?
       res.send "Search for something first. Baka."
       return
