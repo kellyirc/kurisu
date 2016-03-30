@@ -6,5 +6,7 @@
   "hubot-calculator",
   "hubot-url-title",
   "hubot-android-os-usage",
-  "hubot-toldify"
+  "hubot-toldify",
+  "hubot-thank-you",
+  "hubot-soon"
 ]
