@@ -5,6 +5,7 @@
   "author": "Raymond Hammarling <raymond@hammarlings.se>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
+    "got": "^6.2.0",
     "hubot": "^2.18.0",
     "hubot-android-os-usage": "^1.0.0",
     "hubot-calculator": "^0.4.0",
