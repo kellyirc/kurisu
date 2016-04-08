@@ -31,4 +31,18 @@ module.exports = function(robot) {
 
         res.reply('Alright, command "' + id + '" now requires role ' + role);
     });
+
+    robot.respond(/(.+) doesn't require any role/i, function(res) {
+        if(!robot.auth.hasRole(res.message.user, 'admin')) {
+            res.reply('Only admins may set that!');
+        }
+
+        var id = res.match[1];
+
+        var roleAccessRules = robot.brain.get('roleAccessRules') || {};
+        delete roleAccessRules[id];
+        robot.brain.set('roleAccessRules', roleAccessRules);
+
+        res.reply('Alright, command "' + id + '" now doesn\'t require any role');
+    });
 }
