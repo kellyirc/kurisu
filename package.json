@@ -18,6 +18,7 @@
     "hubot-thank-you": "0.0.3",
     "hubot-toldify": "^0.2.0",
     "hubot-url-title": "^1.2.2",
+    "hubot-webhook-cmds": "^1.0.0",
     "jobot-brain-file": "^0.1.4"
   },
   "engines": {

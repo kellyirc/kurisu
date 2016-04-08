@@ -9,5 +9,6 @@
   "hubot-android-os-usage",
   "hubot-toldify",
   "hubot-thank-you",
-  "hubot-soon"
+  "hubot-soon",
+  "hubot-webhook-cmds"
 ]
