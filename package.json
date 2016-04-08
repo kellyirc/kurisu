@@ -8,6 +8,7 @@
     "got": "^6.2.0",
     "hubot": "^2.18.0",
     "hubot-android-os-usage": "^1.0.0",
+    "hubot-auth": "^1.2.0",
     "hubot-calculator": "^0.4.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.1.3",
