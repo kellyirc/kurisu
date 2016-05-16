@@ -16,7 +16,7 @@
     "hubot-soon": "^1.0.0",
     "hubot-substitute": "^0.2.0",
     "hubot-thank-you": "0.0.3",
-    "hubot-remind-advanced": "0.0.4",
+    "hubot-remind-at": "0.0.5",
     "hubot-toldify": "^0.2.0",
     "hubot-url-title": "^1.2.2",
     "hubot-webhook-cmds": "^1.0.0",
