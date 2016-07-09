@@ -16,7 +16,6 @@
     "hubot-irc": "^0.2.8",
     "hubot-javascript": "0.0.7",
     "hubot-remind-at": "0.0.5",
-    "hubot-soon": "^1.0.0",
     "hubot-substitute": "^0.2.0",
     "hubot-thank-you": "0.0.3",
     "hubot-toldify": "^0.2.0",
