@@ -12,5 +12,6 @@
   "hubot-thank-you",
   "hubot-webhook-cmds",
   "hubot-javascript",
-  "hubot-hummingbird"
+  "hubot-hummingbird",
+  "hubot-google"
 ]
