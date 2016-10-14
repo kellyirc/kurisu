@@ -21,7 +21,8 @@
     "hubot-toldify": "^0.2.0",
     "hubot-url-title": "^1.2.2",
     "hubot-webhook-cmds": "^1.0.0",
-    "jobot-brain-file": "^0.1.4"
+    "jobot-brain-file": "^0.1.4",
+    "hubot-scripts": "^2.17.2"
   },
   "engines": {
     "node": "0.10.x"
