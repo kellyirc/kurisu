@@ -2,8 +2,6 @@
 
 npm install
 
-export HUBOT_IRC_SERVER=irc.esper.net
-export HUBOT_IRC_ROOMS="#kellyirc,#dgr,#kwrpg,#scripts&alias"
 export HUBOT_IRC_UNFLOOD="1000"
 
 export FILE_BRAIN_PATH="."
